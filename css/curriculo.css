@@ -1,65 +1,91 @@
-            body
-            {
-                font-family:Tahoma;
-                font-size:9pt;
-                background-color:#CCC;
-				padding: 5px 5px 5px 5px;
-            }
-            h3
-            {
-                font-size:11pt;
-				margin-left:10px;
-                text-transform:capitalize;
-                font-style:italic;
-            }
-            h2
-            {
-                font-size:13pt;
-                font-weight:bold;
-            }
-            h1
-            {
-                font-size:18pt;
-				margin-top:10px;
-                text-align:center;
-                font-weight:bold;
-            }
-            p > span
-			{
-				font-weight:bolder;
-                text-transform:capitalize;
-			}
-            .dados
-            {
-                /*color:red;*/
-            }
-            .objetivo
-            {
-                /*color:blue;*/
-            }
-            .formacao
-            {
-                /*color:green;*/
-            }
-            .experiencia
-            {
-                /*color:gold;*/
-            }
-            .habilidades
-            {
-                /*color:maroon;*/
-            }
-            section
-            {
-                background-color:white;
-                padding: 5px 5px;
-                border: 5px solid #e9e9e9;
-            }
-            dt
-            {
-                text-transform:capitalize;
-            }
-            dl
-            {
-                margin-left:10px;
-            }
+body
+{
+    font-family:Tahoma;
+    font-size:9pt;
+    background-color:#CCC;
+}
+h3
+{
+    font-size:11pt;
+	margin-left:10px;
+    text-transform:capitalize;
+    font-style:italic;
+}
+h2
+{
+    font-size:13pt;
+    font-weight:bold;
+}
+h1
+{
+    font-size:18pt;
+	margin-top:10px;
+    text-align:center;
+    font-weight:bold;
+}
+p > span
+{
+	font-weight:bolder;
+    text-transform:capitalize;
+}
+.dados
+{
+    /*color:red;
+    padding: 5px 5px 5px 5px;*/
+    
+}
+.objetivo
+{
+    /*color:blue;
+    padding: 5px 5px 5px 5px;*/
+}
+.formacao
+{
+    /*color:green;
+    padding: 5px 5px 5px 5px;*/
+}
+.experiencia
+{
+    /*color:gold;
+    padding: 5px 5px 5px 5px;*/
+}
+.habilidades
+{
+    /*color:maroon;
+    padding: 5px 5px 5px 5px;*/
+}
+.titulo
+{
+    background-color:white;
+    margin: 15px 15px 0px 15px;
+}
+section
+{
+    background-color:white;
+    padding: 5px 5px;
+    border: 5px solid #e9e9e9;
+    min-width:370px;
+}
+dt
+{
+    text-transform:capitalize;
+}
+dl
+{
+    margin-left:10px;
+}
+header
+{
+    position:fixed;
+    top:0px;
+    max-height:80px;
+    width:100%;
+    background-color:#CCC;
+    z-index:10;
+}
+article
+{
+    position:relative;
+    top:80px;
+}
+
