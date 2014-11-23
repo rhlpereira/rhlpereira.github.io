@@ -31,7 +31,7 @@ $('document').ready(function () {
                     link = "#"
                 }
 
-                if (e.nome.toLowerCase().indexOf("rafael hanke") <= 0)
+                if (e.nome.toLowerCase().indexOf("rafael hanke") < 0)
                 {
                     $("#divRelacionados").append("\n <a href='" + link + "' class='list-group-item'><h4 class='list-group-item-heading'>" + e.nome + "</h4><p class='list-group-item-text'>" + e.mini_curriculo + "</p></a>");
                 }
