@@ -1,6 +1,8 @@
 $('document').ready(function () {
     $.support.cors = true;
 
+    fotohide();
+
     $.ajax({
         url: 'http://rarolabs.com.br:88/alunos.json',
         dataType: 'json',
@@ -43,3 +45,11 @@ $('document').ready(function () {
         }
     });
 })
+
+function fotoshow() {
+    $('#fotoview').show();
+}
+
+function fotohide() {
+    $('#fotoview').hide();
+}
