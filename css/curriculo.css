@@ -88,4 +88,16 @@ article
     position:relative;
     top:80px;
 }
-
+.minifoto{
+    max-width:50px !important;
+    max-height:50px !important;
+}
+.divmaxfoto{
+    z-index:20;
+    position:fixed;
+    left:25px;
+    top:25px;
+}.maxfoto{
+    max-width:300px !important;
+    max-height:300px !important;
+}
